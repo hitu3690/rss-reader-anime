@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "HOST=0.0.0.0 PORT=3333 nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.14.0",
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/axios": "^5.12.1",
+    "@nuxtjs/proxy": "^2.0.1",
+    "@nuxtjs/vuetify": "^1.11.2",
+    "animejs": "^3.2.0",
+    "nanoid": "^2.1.11",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {}
+}
